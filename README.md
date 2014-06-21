@@ -1,7 +1,8 @@
 loan-repayment-calculator
 =========================
 
-A loan repayment calculator for a car dealers website. 
+Provides an example repayment calculation based upon vehicle price, deposit, loan 
+term etc.
 
 Two versions: php and javascript. 
 
