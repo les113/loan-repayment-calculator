@@ -6,4 +6,4 @@ term etc.
 
 Two versions: php and javascript. 
 
-See www.gttwo.com.
+See http://tinyurl.com/okdmwr8
