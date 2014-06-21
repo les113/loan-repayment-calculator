@@ -1,7 +1,6 @@
 
 <!-- calculate loan repayments -->
-<?php $price = $row_rs_vehicledetails['price']; ?>
-<script>
+
 	function loancalc() //set up variables
 	{
 	var price, depositpercent, depositpercent, rate, term, deposit, loan, interest, monthlypayment, totalprice
@@ -20,11 +19,11 @@
 	document.getElementById("loancalcDiv").innerHTML = ('<h2>Depending upon your financial circumstances you could have this vehicle for &pound;<strong>' + monthlypayment + ' per month.</strong></h2>'
 	+ '<p>Deposit: &pound;' + deposit +' (' + depositpercent*100 +'%), Amount of Credit: &pound;' + loan +', Term: ' + term +' years, Interest Payable: &pound;' + interest.toFixed(0) +' (APR: ' + rate +'%) - <strong>Total Amount Payable: &pound;' + totalprice +'</strong></p>');
 	}
-</script>
+
 <!-- format currency commas -->
-<script>
+
 	function numberWithCommas(n) {
 		var parts=n.toString().split(".");
 		return parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (parts[1] ? "." + parts[1] : "");
 	}
-</script>
+
